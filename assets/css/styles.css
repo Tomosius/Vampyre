@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+@font-face {
+    font-family: blood_dripping;
+    src: url(/assets/fonts/BloodytypepersonaluseBold-OVe6e.otf);
+}
+* {
+    margin: 0;
+    padding: 0 ;
+    border: none;
+ 
+}
+/* CSS style for Header */
+
+header {
+    text-align: center;
+}
+header  a {
+    text-decoration: none;
+    width: 90%;
+    font-size: 900%;
+    color: rgba(136, 8, 8, 1);
+    font-family: blood_dripping;
+}
+/* CSS style for Navigation */
+#navigation {
+    width: 90%;
+    margin-left: 5%;
+    color: rgba(136, 8, 8, 1);
+
+}
+#navigation ul {
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+}
+#navigation li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 20px 0 20px;
+    font-size: large;
+    
+}
+/* CSS for map with text */
+#map_img {
+    background-image: url("../images/ruins-of-whitby-abbey-10480.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: 90%;
+    margin-left: 5%;
+    aspect-ratio: 800 / 532;
+    margin-top: 1px;
+    padding: 0;
+    border-radius: 10px;
+}
+#map_img_text_shape {
+    width: 35%;
+    height: 35%;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: rgba(136, 8, 8, 1);
+    display: flex;
+    border-radius: 150%;
+    text-align: center;
+    position: relative;
+    margin-top: 8%;
+    margin-left: 10%
+    
+}
+.map_img_text {
+    margin: auto;
+}
+/* CSS for brief text */
+#brief_text {
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+#brief_text > h2 {
+    color: darkslategrey;
+}
+/* CSS for footer */
+#footer {
+    background-color: black;
+    color: azure;
+    position: relative;
+    bottom: 0px;
+    left: 5%;
+    width: 90%;
+    text-align: center;
+    height: 2.5rem;
+    display: flex;
+    border-radius: 5px;
+}
+#footer ul {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+#footer li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 15px 0 15px;
+}
+#footer a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+#footer i {
+    color: rgba(136, 8, 8, 1);
+}
