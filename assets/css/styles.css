@@ -1,17 +1,17 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Didact+Gothic&family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+
 @font-face {
-    font-family: blood_dripping;
-    src: url(/assets/fonts/BloodytypepersonaluseBold-OVe6e.otf);
+    font-family: abbadon;
+    src: url(/assets/fonts/Abaddon/Abaddon™\ 400.ttf);
 }
 * {
     margin: 0;
     padding: 0 ;
     border: none;
- 
+    font-family: 'Didact Gothic', sans-serif;
 }
-/* CSS style for Header */
-
+/* CSS style for Header*/
 header {
     text-align: center;
 }
@@ -20,55 +20,59 @@ header  a {
     width: 90%;
     font-size: 900%;
     color: rgba(136, 8, 8, 1);
-    font-family: blood_dripping;
-}
+    font-family: abbadon;
+
+} 
 /* CSS style for Navigation */
-#navigation {
+nav {
     width: 90%;
     margin-left: 5%;
     color: rgba(136, 8, 8, 1);
-
 }
-#navigation ul {
+nav ul {
     margin: auto;
     text-align: center;
     border-radius: 5px;
 }
-#navigation li {
+nav li {
     list-style-type: none;
     display: inline-block;
     margin: 0 20px 0 20px;
     font-size: large;
-    
+    text-decoration: none;
+}
+nav a {
+    text-decoration: none;
+    color: black;
 }
 /* CSS for map with text */
-#map_img {
-    background-image: url("../images/ruins-of-whitby-abbey-10480.jpg");
+#main_img {
+    background-image: url("../images/bran_castle.jpg");
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
     width: 90%;
     margin-left: 5%;
-    aspect-ratio: 800 / 532;
+    aspect-ratio: 1920 / 1283;
     margin-top: 1px;
     padding: 0;
     border-radius: 10px;
 }
-#map_img_text_shape {
+#main_img_text_shape {
     width: 35%;
     height: 35%;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
     color: rgba(136, 8, 8, 1);
     display: flex;
     border-radius: 150%;
     text-align: center;
     position: relative;
-    margin-top: 8%;
-    margin-left: 10%
-    
+    margin-top: 3%;
+    margin-left: 62%;
+    font-size: 125%;
 }
-.map_img_text {
+.main_img_text {
     margin: auto;
 }
 /* CSS for brief text */
@@ -79,7 +83,12 @@ header  a {
     margin-top: 20px;
 }
 #brief_text > h2 {
-    color: darkslategrey;
+    color: black;
+}
+/* Brief History - Dracula CSS */
+#dracula img {
+float: right;
+margin: 5px;
 }
 /* CSS for footer */
 #footer {
@@ -92,7 +101,7 @@ header  a {
     text-align: center;
     height: 2.5rem;
     display: flex;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 #footer ul {
     margin: auto;
