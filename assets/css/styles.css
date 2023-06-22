@@ -6,8 +6,9 @@
     src: url(/assets/fonts/Abaddon/Abaddon™\ 400.ttf);
 }
 * {
-    margin: 0;
-    padding: 0 ;
+    /* margin-left: 2%;
+    margin-right: 2%; */
+    margin: 0 2% 0 2%;
     border: none;
     font-family: 'Didact Gothic', sans-serif;
 }
@@ -24,26 +25,23 @@ header  a {
 
 } 
 /* CSS style for Navigation */
-nav {
-    width: 90%;
-    margin-left: 5%;
-    color: rgba(136, 8, 8, 1);
-}
 nav ul {
-    margin: auto;
     text-align: center;
-    border-radius: 5px;
 }
 nav li {
     list-style-type: none;
-    display: inline-block;
-    margin: 0 20px 0 20px;
     font-size: large;
     text-decoration: none;
+    display: inline-block;
+    width: 32%;
+    margin: 0;
 }
 nav a {
     text-decoration: none;
     color: black;
+}
+nav a:hover {
+    color: rgba(136, 8, 8, 1);
 }
 /* CSS for map with text */
 #main_img {
@@ -52,8 +50,6 @@ nav a {
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
-    width: 90%;
-    margin-left: 5%;
     aspect-ratio: 1920 / 1283;
     margin-top: 1px;
     padding: 0;
@@ -74,9 +70,10 @@ nav a {
 }
 .main_img_text {
     margin: auto;
+    font-size:2vw ;
 }
 /* CSS for brief text */
-#brief_text {
+#main_intro_text {
     width: 80%;
     text-align: center;
     margin-left: 10%;
@@ -85,20 +82,33 @@ nav a {
 #brief_text > h2 {
     color: black;
 }
-/* Brief History - Dracula CSS */
-#dracula img {
-float: right;
-margin: 5px;
+.brief {/* Justify all text*/
+    text-align: justify;
 }
+article {
+    overflow: hidden;
+    padding: 20px 0 20px 0;
+} 
+article > img{
+    border-radius: 10px;
+    width: 48%;
+}
+article:nth-child(odd) > img {
+
+    float: right;
+}
+article:nth-child(even) > img {
+
+    float: left;
+}
+/*CSS for contact*/
+#message {float: left;}
 /* CSS for footer */
 #footer {
     background-color: black;
     color: azure;
-    position: relative;
+    position: relatiabve;
     bottom: 0px;
-    left: 5%;
-    width: 90%;
-    text-align: center;
     height: 2.5rem;
     display: flex;
     border-radius: 10px;
@@ -111,12 +121,20 @@ margin: 5px;
 #footer li {
     list-style-type: none;
     display: inline-block;
-    margin: 0 15px 0 15px;
+    margin: 0;
+    width: 32%;
 }
 #footer a {
     text-decoration: none;
     color: whitesmoke;
 }
-#footer i {
+#footer a:hover {
+    text-decoration: none;
     color: rgba(136, 8, 8, 1);
+}
+ #footer i {
+    color: rgba(136, 8, 8, 1);
+}
+#footer i:hover {
+    color: whitesmoke;
 }
