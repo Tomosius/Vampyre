@@ -1,11 +1,20 @@
 # VAMPIRES
-This website will be to present my skills on HTML and CSS that i have acquired on Code Institute "Full Stack Development" corse.
+This website is a brief history about Vampires, how in time our perspective changed about them in our culture: books, movies and etc.
+The aim of this website is to  present my skills on HTML and CSS that i have acquired on Code Institute "Full Stack Development" course.
 
 Link to live page: https://tomosius.github.io/Vampyre/
 
-## Table ov contents
-
-- [Main page]()
+## Table of contents
+- [VAMPIRES](#vampires)
+  - [Table of contents](#table-of-contents)
+  - [Main Page](#main-page)
+  - [Brief History](#brief-history)
+  - [Contact](#contact)
+  - [Navigation](#navigation)
+  - [Footer](#footer)
+  - [Languages Used:](#languages-used)
+  - [Fonts and colours:](#fonts-and-colours)
+  - [Additional information:](#additional-information)
 
 
 ## Main Page
@@ -45,6 +54,25 @@ Link to live page: https://tomosius.github.io/Vampyre/
 - Each link has 2 elements:
  1.  Icon
  2.  Link Name
- - Each link will redirect you to specific website (according to link name) and will open in new tab. I did not use attribute "_blank" with intention, as it works absolutely fine, just one downside: if it is clicked multiple times, it will make multiple tabs all redirecting to same page. To prevent that, links makes new tab and redirects there, but if double clicked, it does the same, but all happens on that one new tab and just refreshed page.
--  
+ - Each link will redirect you to specific website (according to link name) and will open in new tab. I did not use attribute "_blank" with intention, as it works absolutely fine, just one downside: if it is clicked multiple times, it will make multiple tabs all redirecting to same page. To prevent that, links makes new tab and redirects there, but if double clicked, it does the same, but all happens on that same one new tab and just refreshed page.
 
+## Languages Used:
+- ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+- ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+
+## Fonts and colours:
+- I have implemented 2 different fonts:
+  1. Abbadon - this font is stored locally on server
+   2. Didact Gothic - bootstrapped from Google Fonts
+- Website is based on few colors:
+    1. White
+    2. Black
+    3. Blood RGB (136, 8, 8)
+    4. Whitesmoke - i used this color for text inline with black background
+
+## Additional information:
+
+- All content was written by myself, sorry for any grammar mistakes, as English is not my native language
+- Imaged are used from internet with Common licensing, so they are free to be used.
+- Guidance, teaching and lessons are from [Code Institute](https://codeinstitute.net)
+- Advises were taken from my mentor Marcel (Code Institute)
