@@ -108,7 +108,7 @@ article:nth-child(even) > img {
 /* CSS for footer */
 #footer {
     background-color: black;
-    color: azure;
+    color: whitesmoke;
     position: relative;
     bottom: 0px;
     height: 2.5rem;
