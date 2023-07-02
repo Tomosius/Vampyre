@@ -54,7 +54,7 @@ Link to live page: https://tomosius.github.io/Vampyre/
 - Each link has 2 elements:
  1.  Icon
  2.  Link Name
- - Each link will redirect you to specific website (according to link name) and will open in new tab. I did not use attribute "_blank" with intention, as it works absolutely fine, just one downside: if it is clicked multiple times, it will make multiple tabs all redirecting to same page. To prevent that, links makes new tab and redirects there, but if double clicked, it does the same, but all happens on that same one new tab and just refreshed page.
+ - Each link will redirect you to specific website (according to link name) and will open in new tab.
 
 ## Languages Used:
 - ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)

@@ -113,8 +113,7 @@ article:nth-child(even) > img {
 #message {float: left;}
 .about {text-align: center;}
 /* CSS for footer */
-.contact_body_height{height:100vh;}
-#footer {
+.footer {
     background-color: black;
     color: whitesmoke;
     position: relative;
@@ -123,33 +122,33 @@ article:nth-child(even) > img {
     display: flex;
     border-radius: 10px;
     width: 100%;
+    margin-top: auto;
 }
-#footer ul {
+.footer ul {
     margin: auto;
     width: 100%;
     text-align: center;
 }
-#footer li {
+.footer li {
     list-style-type: none;
     display: inline-block;
     margin: 0;
     width: 32%;
 }
-#footer a {
+.footer a {
     text-decoration: none;
     color: whitesmoke;
 }
-#footer a:hover {
+.footer a:hover {
     text-decoration: none;
     color: rgba(136, 8, 8, 1);
 }
-#footer i {
+.footer i {
     color: rgba(136, 8, 8, 1);
 }
-#footer i:hover {
+.footer i:hover {
     color: whitesmoke;
 }
-
 /* CSS settings for screen width */
 /* for small to medium screen sizes up to 850px wide and down*/
 @media screen and (max-width: 850px)
@@ -166,11 +165,45 @@ article:nth-child(even) > img {
 .button_send {
     background-color: rgb(136, 8, 8);
     border: solid 2 black;
-    color: white;
-    padding: 15px 32px;
+    color: whitesmoke;
+    padding: 15px 15px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
     border-radius: 5px;
+    height: 55px;
+}
+.button_send:hover{border: 3px double black; color: black;}
+.contact_us{
+    overflow: hidden;
+    background-size: cover;
+    /* display: flex; */
+}
+fieldset {
+    width: 90%;
+    margin: 1% auto;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 10px 10px rgba(136, 8, 8, .866);
+    padding: 20px;
+    border: 2px solid whitesmoke;
+
+}
+textarea {
+    width: 75%;
+    padding: 15px;
+    border: 2px solid rgb(136, 8, 8);
+    border-radius: 10px;
+    box-shadow: 0 0 15px 10px rgba(136, 8, 8, 0.4);
+    box-sizing: border-box;
+    margin: 15px;
+    float: right;
+}
+
+.user-entry:hover {
+    border: 3px double rgb(136, 8, 8);
+}
+
+.user-entry:active {
+    box-shadow: 0 0 25px 10px rgb(136, 8, 8);
 }
