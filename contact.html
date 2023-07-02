@@ -21,7 +21,7 @@
                 </ul>
         </nav>
         <main>
-            <form action="cheers.html" class="contact_us">
+            <form action="cheers.html" class="contact_us" method="post" id="contact_form">
                 <fieldset>
                     <h2><label>
                     <i class="fa-solid fa-envelope"> &nbsp; Contact us</i>
@@ -33,11 +33,11 @@
                     <input type="text" name="l-name" placeholder="Last Name" id="last-name" class="user-entry"><br>
                     <label for="e-mail">Email address:</label><br>
                     <input type="email" name="email" placeholder="Your e-mail" required id="e-mail" class="user-entry"><br>
-                    <button class="button_send" form="contact">Send Message</button>
+                    <button class="button_send" form="contact_form" type="submit">Send Message</button>
                 </fieldset>
             </form>
         </main>
-    <footer class="footer">
+    <footer class="footer" style="position: absolute; bottom: 0;">
         <ul>
             <li><a href="https://www.linkedin.com/in/tomas-pecukevicius-a9837652/" target="_blank" aria-label="My LinkedIn (Opens in new separate TAB)"><i class="fa-brands fa-linkedin fa-beat-fade"></i> Linked In</a></li>
             <li><a href="https://github.com/Tomosius/Vampyre" target="_blank" aria-label="GitHub Source Code (Opens in new separate TAB)"><i class="fa-brands fa-github fa-beat-fade"></i> Source Code</a></li>
