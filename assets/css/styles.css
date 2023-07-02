@@ -11,8 +11,7 @@
     padding: 0;
 }
 body { /*settings for background */
-    background: linear-gradient(to bottom, white, #880808);
-}
+    background: linear-gradient(to bottom, white, #880808);}
 /* CSS style for Header*/
 header {
     text-align: center;
@@ -90,8 +89,7 @@ nav a:hover {
     width: 94%;
     margin: 3%;
 }
-
-
+/* CSS for artices in brief history page */
 article {
     overflow: hidden;
     padding: 20px;
@@ -109,9 +107,6 @@ article:nth-child(even) > img {
 
     float: left;
 }
-/*CSS for contact*/
-#message {float: left;}
-.about {text-align: center;}
 /* CSS for footer */
 .footer {
     background-color: black;
@@ -162,6 +157,9 @@ article:nth-child(even) > img {
         width: 100%;
     }
 }
+/*CSS for contact*/
+#message {float: left;}
+.about {text-align: center;}
 .button_send {
     background-color: rgb(136, 8, 8);
     border: solid 2 black;
