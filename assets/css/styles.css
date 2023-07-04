@@ -12,6 +12,7 @@
 }
 body { /*settings for background */
     background: linear-gradient(to bottom, white, #880808);}
+    min-height: 100vh;
 /* CSS style for Header*/
 header {
     text-align: center;
