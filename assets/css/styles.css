@@ -1,21 +1,31 @@
-
+/* import fonts from google */
 @import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Didact+Gothic&family=Lato:wght@300&family=Oswald:wght@300&display=swap');
 
+
+/* bootstrapping local font */
 @font-face {
     font-family: abbadon;
-    src: url(/assets/fonts/Abaddon/Abaddon_400.ttf);
+    src: url(/assets/fonts/Abaddon/abaddon_400.ttf);
 }
+
+
+/* settings for all pages bodies */
 * {
     font-family: 'Didact Gothic', sans-serif;
     margin: 0;
     padding: 0;
+
 }
 body { /*settings for background */
-    background: linear-gradient(to bottom, white, #880808);}
-/* CSS style for Header*/
+    background: linear-gradient(to bottom, white, #880808);
+
+}
+    
+
+/* CSS style for Header for all pages*/
 header {
     text-align: center;
-    height: 100px;
+    height: 120px;
     background-image: url("../images/blood1.gif");
     z-index: ;
 }
@@ -26,8 +36,11 @@ header  a {
     color: rgba(136, 8, 8, 1);
     font-family: abbadon;
     margin-top: -50px;
+
 } 
-/* CSS style for Navigation */
+
+
+/* CSS style for Navigation for all pages */
 nav ul {
     text-align: center;
     height: 50px;
@@ -47,8 +60,10 @@ nav a {
 nav a:hover {
     color: rgba(136, 8, 8, 1);
 }
-/* CSS for map with text */
-#main_img {
+
+
+/* CSS - index page */
+#index_main_img {
     background-image: url("../images/bran_castle.jpg");
     background-attachment: scroll;
     background-repeat: no-repeat;
@@ -61,7 +76,7 @@ nav a:hover {
     display: block;
     margin:auto ;
 }
-#main_img_text_shape {
+#index_main_img_text_shape {
     width: 35%;
     height: 35%;
     background-color: rgba(255, 255, 255, 0.2);
@@ -74,16 +89,19 @@ nav a:hover {
     margin-left: 62%;
     font-size: 125%;
 }
-.main_img_text {
+.index_main_img_text {
     margin: auto;
     font-size:2vw ;
 }
-/* CSS for brief text */
-#main_intro_text {
+#index_main_intro_text {
     width: 90%;
     text-align: center;
     margin-left: 5%;
+    padding-top: 25px;
 }
+
+
+/* CSS for brief_history page */
 .brief  {/* Justify all text*/
     text-align: justify;
     width: 94%;
@@ -96,17 +114,25 @@ article {
 }
 article > img{
     border-radius: 10px;
-    width: 50%;
-    margin: 10px
+    width: 49%;
+    margin: 25px
 }
-article:nth-child(odd) > img {
+article h1 {
+    font-size:36px;
+}
+article p {
+    font-size:22px;
+}
+article:nth-child(odd) > img { /*aligning all articles images that are odd to be floating to right*/
 
     float: right;
 }
-article:nth-child(even) > img {
+article:nth-child(even) > img { /*aligning all articles images that are even to be floating to left*/
 
     float: left;
 }
+
+
 /* CSS for footer */
 .footer {
     background-color: black;
@@ -134,16 +160,19 @@ article:nth-child(even) > img {
     text-decoration: none;
     color: whitesmoke;
 }
-.footer a:hover {
+.footer a:hover { /*footer settings when mouse hover over */
     text-decoration: none;
     color: rgba(136, 8, 8, 1);
 }
 .footer i {
     color: rgba(136, 8, 8, 1);
+    font-size: 26px;
 }
 .footer i:hover {
     color: whitesmoke;
 }
+
+
 /* CSS settings for screen width */
 /* for small to medium screen sizes up to 850px wide and down*/
 @media screen and (max-width: 850px)
@@ -157,8 +186,9 @@ article:nth-child(even) > img {
         width: 100%;
     }
 }
-/*CSS for contact*/
-#message {float: left;}
+
+
+/*CSS for contact page*/
 .about {text-align: center;}
 .button_send {
     background-color: rgb(136, 8, 8);
@@ -170,12 +200,12 @@ article:nth-child(even) > img {
     font-size: 16px;
     border-radius: 5px;
     height: 55px;
+    margin-left: 30px;
 }
 .button_send:hover{border: 3px double black; color: black;}
 .contact_us{
     overflow: hidden;
     background-size: cover;
-    /* display: flex; */
 }
 fieldset {
     width: 90%;
@@ -185,23 +215,46 @@ fieldset {
     box-shadow: 0 0 10px 10px rgba(136, 8, 8, .866);
     padding: 20px;
     border: 2px solid whitesmoke;
-
 }
 textarea {
-    width: 75%;
-    padding: 15px;
+    width: 90%;
     border: 2px solid rgb(136, 8, 8);
     border-radius: 10px;
     box-shadow: 0 0 15px 10px rgba(136, 8, 8, 0.4);
     box-sizing: border-box;
-    margin: 15px;
-    float: right;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
 }
-
-.user-entry:hover {
-    border: 3px double rgb(136, 8, 8);
+/* .user-entry:hover {
+    border-radius: 10px;
+    background-color: rgba(136, 8, 8, .1);
+} */
+fieldset h2 {
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 30px;
 }
-
-.user-entry:active {
-    box-shadow: 0 0 25px 10px rgb(136, 8, 8);
+fieldset input {
+    border: none;
+    background: transparent;
+    width: 450px;
+    border-bottom: 3px solid black;
+    font-size: 1.5rem;
+    margin-left: 30px;
+    border-radius: 10px;
+    color: rgb(136, 8, 8);
+}
+fieldset input:hover {
+        border-radius: 10px;
+        background-color: rgba(136, 8, 8, .1);
+}
+fieldset label {
+    font-size: 1.5rem;
+    margin-left: 30px;
 }
