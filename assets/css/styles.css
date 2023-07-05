@@ -62,6 +62,10 @@ nav a:hover {
 
 
 /* CSS - index page */
+.index_img_text_hidden{
+    visibility: hidden;
+    height: 0;
+}
 #index_main_img {
     background-image: url("../images/bran_castle.jpg");
     background-attachment: scroll;
@@ -191,6 +195,33 @@ article:nth-child(even) > img { /*aligning all articles images that are even to 
         display: inline-block;
         width: 32%;
         margin: 0;
+    }
+    #index_main_img_text_shape {
+        visibility: hidden;
+    }
+    #index_main_img {
+        background-image: url("../images/bran_castle.jpg");
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+        aspect-ratio: 1920 / 1283;
+        width: 98%;
+        border-radius: 10px;
+        display: block;
+        margin:auto ;
+        margin-top: 30px;
+    }
+    .index_main_img_text {
+        visibility: hidden;
+    }
+    .index_img_text_hidden{
+        color: rgb(136, 8, 8);
+        width: 90%;
+        text-align: center;
+        visibility: visible;
+        height: auto;
     }
 }
 
