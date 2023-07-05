@@ -223,6 +223,27 @@ article:nth-child(even) > img { /*aligning all articles images that are even to 
         visibility: visible;
         height: auto;
     }
+    fieldset input {
+        border: none;
+        background: transparent;
+        width: 200px;
+        border-bottom: 3px solid black;
+        font-size: 1rem;
+        margin-left: 30px;
+        border-radius: 10px;
+        color: rgb(136, 8, 8);
+        display:flex;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    fieldset input:hover {
+            border-radius: 10px;
+            background-color: rgba(136, 8, 8, .1);
+    }
+    fieldset label {
+        font-size: 1rem;
+        margin-left: 30px;
+    }
 }
 
 
@@ -268,10 +289,7 @@ textarea {
     margin-right: auto;
     padding: 10px;
 }
-/* .user-entry:hover {
-    border-radius: 10px;
-    background-color: rgba(136, 8, 8, .1);
-} */
+
 fieldset h2 {
     font-size: 1.5rem;
     width: 100%;
