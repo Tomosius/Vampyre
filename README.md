@@ -1,10 +1,40 @@
 # VAMPIRES
+![Website testing for responsiveness](assets/images/website_responsive.PNG)
 This website is a brief history about Vampires, how in time our perspective changed about them in our culture: books, movies and etc.
 The aim of this website is to  present my skills on HTML and CSS that i have acquired on Code Institute "Full Stack Development" course.
 
 Link to live page: https://tomosius.github.io/Vampyre/
 
 ## Table of contents
+1. User Experience
+2. Design
+3. Features
+4. Technologies
+5. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 - [VAMPIRES](#vampires)
   - [Table of contents](#table-of-contents)
   - [Main Page](#main-page)
