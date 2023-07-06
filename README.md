@@ -6,45 +6,172 @@ The aim of this website is to  present my skills on HTML and CSS that i have acq
 Link to live page: https://tomosius.github.io/Vampyre/
 
 ## Table of contents
-1. User Experience
-2. Design
-3. Features
-4. Technologies
-5. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 - [VAMPIRES](#vampires)
   - [Table of contents](#table-of-contents)
-  - [Main Page](#main-page)
-  - [Brief History](#brief-history)
-  - [Contact](#contact)
-  - [Navigation](#navigation)
-  - [Footer](#footer)
-  - [Languages Used:](#languages-used)
-  - [Fonts and colours:](#fonts-and-colours)
-  - [Additional information:](#additional-information)
+  - [User Experience (UX)](#user-experience-ux)
+    - [Website Aim](#website-aim)
+    - [Stories](#stories)
+  - [Design](#design)
+    - [Color Cheme](#color-cheme)
+    - [Images](#images)
+  - [Features](#features)
+    - [General Features](#general-features)
+    - [Accessibility](#accessibility)
+
+
+
+## User Experience (UX)
+### Website Aim
+* This website is to represent world of "Vampires"
+* Show how our perspective about them changed in timeline
+* Give reader access to contact website designer
+### Stories
+* Brief history about Dracula
+* First movie about Vampires
+* Changing perspective about vampires
+* Vampires in modern art
+## Design
+### Color Cheme
+* Website is based on these colors:
+  - Blood RGB(136,8,8)
+  - Black
+  - White
+  - Smoked-White (les vibrant white)
+  
+### Images
+* All images are used from Internet with common or free user rights
+
+## Features
+### General Features
+* background: linear-gradient(to bottom, white, #880808):<br>
+White color is changing to blood from top towards bottom of page, for this i have implemented
+* article:nth-child(odd) > img <br>
+aligning all articles images that are odd to be floating to right
+* article:nth-child(even) > img<br>
+aligning all articles images that are even to be floating to left
+* @media screen and (max-width: 600px)<br>
+Settings for website when used on small screen with resolution 600 pix and below
+* Page Contact has inline styling as on some screens footer gets higher then bottom, as page is prety tiny, for this i used: style="height: 100vh;"
+* Navigation bar has links to all pages: Home, Brief History, Contact
+* Footer has links to Personal LinkedIn, Source Code and this README.md
+* When hovering mouse above an Element, color changes
+* Main page Intro text is placed on image with lighter background
+* Same page on smaller screen sizes, that text moves above the picture
+### Accessibility
+* all links have 'aria-label' to ensure readability of the website
+* all images have 'alt' attributes
+* Headings elements 'h1', 'h2', 'h3' have been applied to convey structure
+
+
+
+<!-- 
+## User Experience (UX)
+### Website Aim
+* This website is to represent world of "Vampires"
+* Show how our perspective about them changed in timeline
+* Give reader access to contact website designer
+### Stories
+* Brief history about Dracula
+* First movie about Vampires
+* Changing perspective about vampires
+* Vampires in modern art
+## Design
+### Color Cheme
+* Website is based on these colors:
+  - Blood RGB(136,8,8)
+  - Black
+  - White
+  - Smoked-White (les vibrant white)
+  
+### Images
+* All images are used from Internet with common or free user rights
+
+## Features
+### General Features
+* background: linear-gradient(to bottom, white, #880808):<br>
+White color is changing to blood from top towards bottom of page, for this i have implemented
+* article:nth-child(odd) > img <br>
+aligning all articles images that are odd to be floating to right
+* article:nth-child(even) > img<br>
+aligning all articles images that are even to be floating to left
+* @media screen and (max-width: 600px)<br>
+Settings for website when used on small screen with resolution 600 pix and below
+* Page Contact has inline styling as on some screens footer gets higher then bottom, as page is prety tiny, for this i used: style="height: 100vh;"
+* Navigation bar has links to all pages: Home, Brief History, Contact
+* Footer has links to Personal LinkedIn, Source Code and this README.md
+* When hovering mouse above an Element, color changes
+* Main page Intro text is placed on image with lighter background
+* Same page on smaller screen sizes, that text moves above the picture
+### Accessibility
+* all links have 'aria-label' to ensure readability of the website
+* all images have 'alt' attributes
+* Headings elements 'h1', 'h2', 'h3' have been applied to convey structure
+
+
+
+***
+## User Experience (UX)
+### Website Aim
+* This website is to represent world of "Vampires"
+* Show how our perspective about them changed in timeline
+* Give reader access to contact website designer
+### Stories
+* Brief history about Dracula
+* First movie about Vampires
+* Changing perspective about vampires
+* Vampires in modern art
+## Design
+### Color Cheme
+* Website is based on these colors:
+  - Blood RGB(136,8,8)
+  - Black
+  - White
+  - Smoked-White (les vibrant white)
+  
+### Images
+* All images are used from Internet with common or free user rights
+
+## Features
+### General Features
+* All website (all pages) have the same background style:
+    
+
+
+
+
+
+
+
+
+   - [Images](#images)
+1. [Features](#features)
+   - [General Features](#general-features)
+   - [Accessibility](#accessibility)
+2. [Testing](#testing)
+   - [Responsiveness](#responsiveness)
+   - [Compatibility](#compatibility)
+   - [W3C validation HTML](#w3c-validation-html)
+   - [W3C validation CSS](#w3c-validation-css)
+   - [404 page](#404-page)
+3. [Technologies](#technologies)
+   - [Languages Used](#anguages-used)
+   - [Bootstrapping](#bootstrapping)
+4. [Deployment](#deployment)
+   - [Tools Used](#tools-used)
+   - [GitHub Pages](#github-pages)
+5. [Acknowledgements](#acknowledgements)
+   - [Teaching](#teaching)
+   - [Support](#support)
+   - [Thanks To](#thanks-to)
+
+
+
+
+
+
+
+
+
 
 
 ## Main Page
@@ -105,4 +232,4 @@ Link to live page: https://tomosius.github.io/Vampyre/
 - All content was written by myself, sorry for any grammar mistakes, as English is not my native language
 - Imaged are used from internet with Common licensing, so they are free to be used.
 - Guidance, teaching and lessons are from [Code Institute](https://codeinstitute.net)
-- Advises were taken from my mentor Marcel (Code Institute)
+- Advises were taken from my mentor Marcel (Code Institute) -->
