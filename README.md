@@ -57,7 +57,7 @@ aligning all articles images that are odd to be floating to right
 aligning all articles images that are even to be floating to left
 * @media screen and (max-width: 600px)<br>
 Settings for website when used on small screen with resolution 600 pix and below
-* Page Contact has inline styling as on some screens footer gets higher then bottom, as page is prety tiny, for this i used: style="height: 100vh;"
+* Page Contact has inline styling as on some screens footer gets higher then bottom, as page is tiny, for this i used: style="height: 100vh;"
 * Navigation bar has links to all pages: Home, Brief History, Contact
 * Footer has links to Personal LinkedIn, Source Code and this README.md
 * When hovering mouse above an Element, color changes
