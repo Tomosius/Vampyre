@@ -80,11 +80,11 @@ All these devices have used Safari, Firefox and Google Chrome browsers
 ### W3C validation HTML
 ![W3C Index Page Validation](assets/images/w3c_index.png)
 ![W3C Brief Page Validation](assets/images/w3c_brief.png)
-![W3C Contact Page Vaslidation](assets/images/w3c_contact.png)
+![W3C Contact Page Validation](assets/images/w3c_contact.png)
 ### W3C validation CSS
 ![W3C CSS file Validation](assets/images/w3c_css.png)
 ### 404 Page
-If error accurs, website will redirect to 404 Page:
+If error occurs, website will redirect to 404 Page:
 ![404 website Page](assets/images/404_page_ss.png)
 ## Technologies
 ### Languages Used
@@ -94,7 +94,7 @@ If error accurs, website will redirect to 404 Page:
 * Fonts were used from Google Fonts
 * Icons were used from fontawesome
 ### Tools used
-* Gimp for cropong and adjustting images
+* Gimp for cropping  and adjusting images
 * Visual Studio Code - as Code Editor
 * Git / GitHub for Version Control
 * Shields.io for badges used in README.md
