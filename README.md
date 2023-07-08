@@ -12,7 +12,7 @@ The aim of this website is to  present my skills on HTML and CSS that i have acq
     - [Website Aim](#website-aim)
     - [Stories](#stories)
   - [Design](#design)
-    - [Color Cheme](#color-cheme)
+    - [Color Scheme](#color-scheme)
     - [Images](#images)
   - [Features](#features)
     - [General Features](#general-features)
@@ -39,7 +39,7 @@ The aim of this website is to  present my skills on HTML and CSS that i have acq
 * Changing perspective about vampires
 * Vampires in modern art
 ## Design
-### Color Cheme
+### Color Scheme
 * Website is based on these colors:
   - Blood RGB(136,8,8)
   - Black
