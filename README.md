@@ -131,14 +131,14 @@ Microsoft Edge | No appearance, responsiveness nor functionality issues. | Pass
 
     - Brief History  Section
 
-    | Feature | Test | Pass/Fail |
+    | Feature | Test | Result |
     | --- | --- | --- |
     | Images float to left or right | Images are automatically floating to left orr right depending on article (odd articles float right, even - left) | Pass |
     | Small screen images are not floating | Images stop floating to sides on smaller screens | Pass |
 
     - 404 Error Page
 
-    | Feature | Outcome | Pass/Fail |
+    | Feature | Test | Result |
     | --- | --- | --- |
     | 404 Error Page | Entering an incorrect address into the address bar bring the user to the 404 error page. | Pass |
 
