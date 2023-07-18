@@ -38,6 +38,9 @@ The aim of this website is to  present my skills on HTML and CSS that i have acq
 * First movie about Vampires
 * Changing perspective about vampires
 * Vampires in modern art
+
+[Back to top ⇧](#rpsls)
+
 ## Design
 ### Color Scheme
 * Website is based on these colors:
@@ -47,6 +50,9 @@ The aim of this website is to  present my skills on HTML and CSS that i have acq
   - Smoked-White (les vibrant white)
 ### Images
 * All images are used from Internet with common or free user rights
+
+[Back to top ⇧](#rpsls)
+
 ## Features
 ### General Features
 * background: linear-gradient(to bottom, white, #880808):<br>
@@ -67,6 +73,9 @@ Settings for website when used on small screen with resolution 600 pix and below
 * all links have 'aria-label' to ensure readability of the website
 * all images have 'alt' attributes
 * Headings elements 'h1', 'h2', 'h3' have been applied to convey structure
+
+[Back to top ⇧](#rpsls)
+
 ## Testing
 ### Responsiveness
 * All Pages have been tested with:<br> https://responsivedesignchecker.com
@@ -77,6 +86,64 @@ Website was tested for appearance, functionality or responsiveness on these devi
 * Macbook Air 13"
 * Iphone 12
 All these devices have used Safari, Firefox and Google Chrome browsers
+### Manual Testing
+* Device compatibility
+
+| Device | Test | Result |
+| --- | --- | --- |
+| MacBook Air 13" | No appearance, responsiveness nor functionality issues. | Pass |
+| iPad Pro 12.9" | No appearance, responsiveness nor functionality issues. | Pass |
+| iPhone 8 | No appearance, responsiveness nor functionality issues. | Pass |
+
+
+* Browser Compatibility
+
+| Browser | Test | Result  |
+--- | --- | ---
+Google Chrome | No appearance, responsiveness nor functionality issues.| Pass
+Safari | No appearance, responsiveness nor functionality issues. | Pass
+Mozilla Firefox | Scrollbar is visible even though it should be hidden. <br>No responsiveness nor functionality issues.| Pass
+Microsoft Edge | No appearance, responsiveness nor functionality issues. | Pass
+
+* Website Elements Testing
+
+    - General
+
+    | Feature | Test | Result |
+    | --- | --- | --- |
+    | Navigation Bar | Hover effect and links are working as expected. | Pass |
+    | Social Links | Open the specific website on a new tab. | Pass |
+    | Blood dripping animation | Animation is visible on all screen sizes | Pass |
+
+    - Home Section
+    
+     |Feature | Test | Result |
+    | --- | --- | --- |
+    | Main intro text big screen | Text is visible on main image on high resolution screens| Pass |
+    | Man intro text small screen | Text disappears on image and reappears above picture as intro text | Pass |
+    
+    - Contact Form 
+    
+    | Feature | Test | Result |
+    | --- | --- | --- |
+    | Form | Require all fields in the right format before submission. |  Pass |
+    | Send Feedback Button | Hover effect work as expected and submit form when clicked. |  Pass |
+
+    - Brief History  Section
+
+    | Feature | Test | Pass/Fail |
+    | --- | --- | --- |
+    | Images float to left or right | Images are automatically floating to left orr right depending on article (odd articles float right, even - left) | Pass |
+    | Small screen images are not floating | Images stop floating to sides on smaller screens | Pass |
+
+    - 404 Error Page
+
+    | Feature | Outcome | Pass/Fail |
+    | --- | --- | --- |
+    | 404 Error Page | Entering an incorrect address into the address bar bring the user to the 404 error page. | Pass |
+
+[Back to top ⇧](#rpsls)
+
 ### W3C validation HTML
 ![W3C Index Page Validation](assets/images/w3c_index.png)
 ![W3C Brief Page Validation](assets/images/w3c_brief.png)
@@ -86,6 +153,9 @@ All these devices have used Safari, Firefox and Google Chrome browsers
 ### 404 Page
 If error occurs, website will redirect to 404 Page:
 ![404 website Page](assets/images/404_page_ss.png)
+
+[Back to top ⇧](#rpsls)
+
 ## Technologies
 ### Languages Used
 - ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
@@ -98,9 +168,14 @@ If error occurs, website will redirect to 404 Page:
 * Visual Studio Code - as Code Editor
 * Git / GitHub for Version Control
 * Shields.io for badges used in README.md
+
+[Back to top ⇧](#rpsls)
+
 ## Acknowledgements
 * Idea and biggest support to my partner
 * Code Institute for support and knowledge
 * Tutor Marcel for guidance and feedback
 * [W3Schools](https://www.w3schools.com) for information
 * [Google](https://www.google.co.uk) for images, tips and tricks on HTML5 abd CSS
+
+[Back to top ⇧](#rpsls)
